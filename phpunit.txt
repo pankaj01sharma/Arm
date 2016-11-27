@@ -1,0 +1,24 @@
+
+
+
+composer global require "phpunit/phpunit=5.5.*"
+
+phpunit
+
+
+phpunit C:\wamp64\www\phpunit\CalculatorTests
+
+
+phpunit C:\wamp64\www\phpunit\CalculatorDataProvider
+
+
+
+
+
+Those first two methods—setUp and tearDown—are examples of this kind of built-in functionality.
+ They are helper functions that are executed as part of the normal test run. 
+They’re run before all the tests
+
+
+
+One Assertion per Test
